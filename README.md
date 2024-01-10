@@ -10,8 +10,8 @@ I provide the original online algorithm described in the paper and a second impl
 
 Follow these instructions to perform video stabilization using the pretrained model:
 
-1. **Download Pretrained Model:**
-   - Download the pretrained models [weights]([https://drive.google.com/file/d/1zi5ASOnSdWRxrtIzz16WfOi3maB5Nylm/view?usp=drive_link](https://drive.google.com/drive/folders/1K8HfenNEr_0Joi6RdX4SfKVnCg-GjhvW?usp=sharing)).
+1. **Download the pretrained models:**
+   - Download the pretrained models [weights](https://drive.google.com/drive/folders/1K8HfenNEr_0Joi6RdX4SfKVnCg-GjhvW?usp=drive_link).
    - Place the downloaded weights folder in the main folder of your project.
 
 2. **Run the Stabilization Script:**
