@@ -37,20 +37,19 @@ Make sure you have the necessary dependencies installed, and that your environme
 
 Follow these instructions to train the model:
 
-1. Download Datasets:
-   - Download the training dataset:
-     - [DeepStab Modded](https://hyu-my.sharepoint.com/personal/kashifali_hanyang_ac_kr/_layouts/15/onedrive.aspx?id=%2Fpersonal%2Fkashifali%5Fhanyang%5Fac%5Fkr%2FDocuments%2FDeepStab%5FMod%2Erar&parent=%2Fpersonal%2Fkashifali%5Fhanyang%5Fac%5Fkr%2FDocuments&ga=1)
-
+1. **Download Datasets:**
+   - Download the training dataset: [DeepStab Modded](https://hyu-my.sharepoint.com/personal/kashifali_hanyang_ac_kr/_layouts/15/onedrive.aspx?id=%2Fpersonal%2Fkashifali%5Fhanyang%5Fac%5Fkr%2FDocuments%2FDeepStab%5FMod%2Erar&parent=%2Fpersonal%2Fkashifali%5Fhanyang%5Fac%5Fkr%2FDocuments&ga=1)
    - Extract the contents of the downloaded dataset to a location on your machine.
 
-2. Create the optical flow dataset and matched feature dataset used for the loss functions described in the paper as I demonstrate in the notebooks [Flows](https://github.com/btxviny/StabNet/blob/main/Flows_dataset.ipynb),
-[matched features](https://github.com/btxviny/StabNet/blob/main/matched_features_dataset.ipynb)
+2. **Create Datasets for Loss Functions:**
+   - Run the notebooks:
+     - [Flows_dataset.ipynb](https://github.com/btxviny/StabNet/blob/main/Flows_dataset.ipynb) for optical flow dataset.
+     - [matched_features_dataset.ipynb](https://github.com/btxviny/StabNet/blob/main/matched_features_dataset.ipynb) for matched feature dataset.
 
-3. I then provide notebooks for training the two different implementations/:
-   Online version:
-   -[train_vgg19_16x16_online.ipynb](https://github.com/btxviny/StabNet/blob/main/train_vgg19_16x16_online.ipynb)
-   Future frame version:
-   -[train_vgg19_16x16_future_frames.ipynb](https://github.com/btxviny/StabNet/edit/main/train_vgg19_16x16_future_frames.ipynb)
-   Make sure to change ckpt_dir to the destination you want the model checkpoints to be saved at.
+3. **Training Notebooks:**
+   - Online version: [train_vgg19_16x16_online.ipynb](https://github.com/btxviny/StabNet/blob/main/train_vgg19_16x16_online.ipynb)
+   - Future frame version: [train_vgg19_16x16_future_frames.ipynb](https://github.com/btxviny/StabNet/edit/main/train_vgg19_16x16_future_frames.ipynb)
+   - Make sure to change `ckpt_dir` to the destination you want the model checkpoints to be saved at.
 
-5. I provide metrics.py which computes the cropping, distortion and stability scores for the generated results.
+4. **Metrics Calculation:**
+   - Use `metrics.py` to compute cropping, distortion, and stability scores for the generated results.
