@@ -2,7 +2,7 @@
 
 This is a PyTorch implementation of the [paper](https://cg.cs.tsinghua.edu.cn/papers/TIP-2019-VideoStab.pdf).
 
-![Video Stabilization Example](https://github.com/btxviny/Deep-Motion-Blind-Video-Stabilization/blob/main/result.gif)
+![Video Stabilization Example](https://github.com/btxviny/Deep-Motion-Blind-Video-Stabilization/blob/main/result.gif).
 I provide the original online algorithm described in the paper and a second implementation using a buffer of future frames. The latter can no longer be categorized as an online algorithm but it achieves better stabilization results
 
 ## Inference Instructions
