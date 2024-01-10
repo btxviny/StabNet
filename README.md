@@ -47,8 +47,10 @@ Follow these instructions to train the model:
 [matched features](https://github.com/btxviny/StabNet/blob/main/matched_features_dataset.ipynb)
 
 3. I then provide notebooks for training the two different implementations/:
-   Online version: [train_vgg19_16x16_online.ipynb](https://github.com/btxviny/StabNet/blob/main/train_vgg19_16x16_online.ipynb)
-   Future frame version: [train_vgg19_16x16_future_frames.ipynb](https://github.com/btxviny/StabNet/edit/main/train_vgg19_16x16_future_frames.ipynb)
+   Online version:
+   -[train_vgg19_16x16_online.ipynb](https://github.com/btxviny/StabNet/blob/main/train_vgg19_16x16_online.ipynb)
+   Future frame version:
+   -[train_vgg19_16x16_future_frames.ipynb](https://github.com/btxviny/StabNet/edit/main/train_vgg19_16x16_future_frames.ipynb)
    Make sure to change ckpt_dir to the destination you want the model checkpoints to be saved at.
 
 5. I provide metrics.py which computes the cropping, distortion and stability scores for the generated results.
