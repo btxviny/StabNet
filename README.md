@@ -42,7 +42,7 @@ Follow these instructions to train the model:
    - Extract the contents of the downloaded dataset to a location on your machine.
 
 2. **Create Datasets for Loss Functions:**
-   - Run the notebooks:
+   - Create the optical flows and matched feature datasets to be used in the loss functions descrined in the paper:
      - [Flows_dataset.ipynb](https://github.com/btxviny/StabNet/blob/main/Flows_dataset.ipynb) for optical flow dataset.
      - [matched_features_dataset.ipynb](https://github.com/btxviny/StabNet/blob/main/matched_features_dataset.ipynb) for matched feature dataset.
 
