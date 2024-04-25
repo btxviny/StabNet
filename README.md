@@ -38,7 +38,7 @@ Make sure you have the necessary dependencies installed, and that your environme
 Follow these instructions to train the model:
 
 1. **Download Datasets:**
-   - Download the training dataset: [DeepStab](https://cg.cs.tsinghua.edu.cn/people/~miao/stabnet/data.zip)
+   - Download the training dataset: [DeepStab](https://cg.cs.tsinghua.edu.cn/people/~miao/stabnet/data.zip).
    - Extract the contents of the downloaded dataset to a location on your machine.
 
 2. **Create Datasets for Loss Functions:**
