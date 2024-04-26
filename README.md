@@ -45,6 +45,7 @@ Follow these instructions to train the model:
    - Create the optical flows and matched feature datasets to be used in the loss functions descrined in the paper:
      - [Flows_dataset_raft.ipynb](https://github.com/btxviny/StabNet/blob/main/Flows_dataset_raft.ipynb) for optical flow dataset.
      - [matched_features_dataset.ipynb](https://github.com/btxviny/StabNet/blob/main/matched_features_dataset.ipynb) for matched feature dataset.
+     - create a train_list.txt containing the file paths for each sample input, using [create.txt](https://github.com/btxviny/StabNet/blob/main/create_txt.ipynb)(adjust paths as needed).
 
 3. **Training Notebooks:**
    - Online version: [train_vgg19_16x16_online.ipynb](https://github.com/btxviny/StabNet/blob/main/train_vgg19_16x16_online.ipynb)
